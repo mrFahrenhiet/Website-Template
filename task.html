@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="task.css">
+</head>
+<body>
+  <div class="container-fluid h-100">
+    <div class="row h-100">
+        <aside class="col-12 col-md-2 p-0 bg-light">
+            <nav class="navbar navbar-expand navbar-light bg-light flex-md-column flex-row align-items-start">
+                <div class="collapse navbar-collapse">
+                    <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-between">
+                        <li class="navbar-brand">
+                            <a class="nav-link pl-0 text-danger" href="#">Filters Themes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Hill Station</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Beaches</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Trekkings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Road Trips</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Honeymoon</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Adventure</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Wildlife</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Water Activities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Nature</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Deserts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Heritage</a>
+                        </li>
+                        <li class="navbar-brand">
+                            <a class="nav-link pl-0 text-danger" href="#">Region</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Across Country</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">North India</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">South India</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">East India</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">West India</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Central India</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">North - East</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">International</a>
+                        </li>
+                        <li class="navbar-brand">
+                            <a class="nav-link pl-0 text-danger" href="#">Activities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Water Sports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Trekking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Snow Sport</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Extreme Sports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Adventures</a>
+                        </li>
+                        <li class="navbar-brand">
+                            <a class="nav-link pl-0 text-danger" href="#">BEST TIME TO VISIT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Jan, Feb, March</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">April, May, June</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">July, August, Sep</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Oct, Nov, Dec</a>
+                        </li>
+                        <li class="navbar-brand">
+                            <a class="nav-link pl-0 text-danger" href="#">POPULARITY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Must Visit</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">You call</a>
+                        </li>
+                        <li class="navbar-brand">
+                            <a class="nav-link pl-0 text-danger" href="#">Places</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Goa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Delhi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Manali</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Simla</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Kashmir</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Chennai</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Hyderabad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Mumbai</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Pune</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Kerala</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Andaman</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Rajastan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Ladakh</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Uttrakhand</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Karnatka</a>
+                        </li>
+                        <li class="navbar-brand">
+                            <a class="nav-link pl-0 text-danger" href="#">Budget</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Less than Rs. 5000</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Rs. 5000 - 10000</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Rs. 10000 - 15000</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Rs. 15000 - 20000</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Rs. 20000 - 25000</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Rs. 25000 - 30000</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Rs. 30000 - 35000</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Rs. 35000 - 40000</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Rs. 40000 - 45000</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Rs. 45000 - 50000</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">Rs. 50000 - 55000</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">More than Rs. 55000</a>
+                        </li>
+                        <li class="navbar-brand">
+                            <a class="nav-link pl-0 text-danger" href="#">Days</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">0 - 2 Days</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">3 - 5 Days</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">6 - 9 Days</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">10 - 13 Days</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">14 - 17 Days</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">18 + Days</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+        <main class="col">
+          <div class="row">
+            <div class="col-md-4 mt-3">
+              
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 mt-3">
+              <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+               <div class="col-md-4 mt-3">
+                <div class="card">
+                <h4 class="card-title pad">1. Agra,Utter-Pradesh</h4>
+                <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg" class="card-img-top">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Places:<a href="#"> Taj Mahal </a> <span class="border-left border-dark pad"><a href="#">Fatehpur Sikri</a></span> <span class="border-left border-dark pad"><a href="#">Agra-Fort</a></span> </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-secondary lef">Packages</span><span class="badge badge-secondary lef">Hotels</span><span class="badge badge-secondary lef">Activities</span> <span class="badge badge-secondary lef">Flight</span>    <span class="badge badge-secondary mar">Food</span>
+                        <br>
+                        <p><span class="text-danger">ACTIVITIES</span>: Adventure</p>
+                        <strong class="back">Best Time: October to March</strong>
+                    </li>
+                    <li class="list-group-item"><p>Home to one of the 7 wonders of the world, Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.</p>
+                    <button class="btn but-c text-light">Read More</button>
+                    </li>
+                </ul>
+              </div>
+              
+            </div>
+
+
+
+          </div>
+
+        </main>
+    </div>
+</div>
+
+
+ 
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

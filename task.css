@@ -1,0 +1,18 @@
+#colo{
+	width: 28% !important;
+}
+.pad{
+	padding-left: 1%;
+}
+.mar{
+	float: right !important;
+}
+.lef{
+	float: left;
+}
+.back{
+	background-color: #efefef;
+}
+.but-c{
+	background-image: linear-gradient(to right, rgb(138,35,135), rgb(233,64,87), rgb(242,113,33));
+}
